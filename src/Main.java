@@ -13,7 +13,7 @@ public class Main {
         } catch (WrongLoginException | WrongPasswordException e) {
             e.printStackTrace();
         } finally {
-            System.out.println("Конец");
+            System.out.println("Все по домам!");
         }
     }
 
